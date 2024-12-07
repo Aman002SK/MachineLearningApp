@@ -14,7 +14,7 @@ from PIL import Image
 
 
 # Load and preprocess the dataset
-dataset = pd.read_csv("datasets/general.csv")
+dataset = pd.read_csv("Datasets/general.csv")
 X = dataset.drop('Disease', axis=1)
 y = dataset['Disease']
 scaler = StandardScaler()
